@@ -40,18 +40,18 @@ def morse_to_text(morse_code):
 def update_morse_output(event):
     text = text_input.get("1.0", tk.END).strip()
     morse_code = text_to_morse(text)
-    morse_output.config(state=tk.NORMAL)  # Enable editing
+    morse_output.config(state=tk.NORMAL)  #enable editing
     morse_output.delete("1.0", tk.END)
     morse_output.insert(tk.END, morse_code)
-    morse_output.config(state=tk.DISABLED)  # Disable editing
+    morse_output.config(state=tk.DISABLED)  #disable editing
     
 def update_text_output(event):
     morse_code = morse_input.get("1.0", tk.END).strip()
     text = morse_to_text(morse_code)
-    text_output.config(state=tk.NORMAL)  # Enable editing
+    text_output.config(state=tk.NORMAL)  #enable editing
     text_output.delete("1.0", tk.END)
     text_output.insert(tk.END, text)
-    text_output.config(state=tk.DISABLED)  # Disable editing
+    text_output.config(state=tk.DISABLED)  #disable editing
     
 
 #here the tkinter starts
