@@ -57,11 +57,11 @@ def update_text_output(event):
 #here the tkinter starts
 root = tk.Tk()
 root.title("Morse Code Translator Tool")
-root.configure(bg="grey")
+root.configure(bg="spring green4")
 
 #for text_to_morse
 font = tkfont.Font(family="Helvetica", size=18, weight="bold")
-Label(root, text="Enter the Text", bg="grey",fg="white", font=font).grid(row=0, column=0, padx=10, pady=10)
+Label(root, text="Enter the Text", bg="spring green4",fg="white", font=font).grid(row=0, column=0, padx=10, pady=10)
 input_font = tkfont.Font(family="Copper Black", size=14)
 text_input = Text(root, height=3, width=40,bg="snow", font=input_font)
 text_input.grid(row=0, column=1, padx=10, pady=10)
@@ -72,7 +72,7 @@ morse_output.grid(row=1, column=1, padx=10, pady=10)
 
 #for morse_to_text
 font = tkfont.Font(family="Helvetica", size=18, weight="bold")
-Label(root, text="Enter the Morse Code", bg="grey", fg="white", font=font).grid(row=2, column=0, padx=10, pady=10)
+Label(root, text="Enter the Morse Code", bg="spring green4", fg="white", font=font).grid(row=2, column=0, padx=10, pady=10)
 input_font = tkfont.Font(family="Copper Black", size=14)
 morse_input = Text(root, height=3, width=40, bg="snow", font=input_font)
 morse_input.grid(row=2, column=1, padx=10, pady=10)
