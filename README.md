@@ -22,3 +22,6 @@ WHY IS MORSE CODE USED?
 6) Emergency Signaling: Morse code is still used today for emergency signaling, such as the internationally recognized distress signal "SOS" (··· --- ···). It can be sent in various forms, including via radio, light, or even sound, making it useful in survival situations.
 
 7) Historical and Cultural Significance: Morse code has historical and cultural significance as one of the first methods of electronic communication. Its development marked a significant advancement in technology and laid the foundation for future innovations in communication.
+
+![Morse Code Output 2](https://github.com/user-attachments/assets/d4315c8c-7986-4912-8e40-1169210df7cf)
+
